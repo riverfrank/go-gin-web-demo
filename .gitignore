@@ -18,3 +18,4 @@
 /.idea/
 .gitignore
 
+/app/river-api/cmd/cmd
