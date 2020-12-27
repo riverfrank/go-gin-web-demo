@@ -17,7 +17,4 @@
 # vendor/
 /.idea/
 .gitignore
-app/
-docs/
-go.mod
-go.sum
+
