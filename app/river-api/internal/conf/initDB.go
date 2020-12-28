@@ -14,5 +14,8 @@ func SetupDB() {
 	if err != nil {
 		log.Panicln("err:", err.Error())
 	}
+	sqlDB, _ := db.DB()
+	sqlDB.SetMaxOpenConns(10)
+	sqlDB.SetMaxIdleConns(1)
 	dao.DB = db
 }
